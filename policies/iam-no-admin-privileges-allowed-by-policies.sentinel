@@ -39,7 +39,8 @@ fetch_policies_allowing_admin_privileges = func() {
 
 	for policy_documents as _, iam_policy_document {
 		if iam_policy_document.values is not defined or
-			iam_policy_document.values[const.statement] is not defined {
+			iam_policy_document.values[const.statement] is not defined or
+			iam_policy_document.values[const.statement] is null {
 			continue
 		}
 
