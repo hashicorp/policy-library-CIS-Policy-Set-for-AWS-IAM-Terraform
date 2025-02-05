@@ -1,10 +1,10 @@
-# Testing Pre-written Sentinel Policies for Center for Internet Security(CIS) AWS Foundations Benchmark
+# Testing Pre-written Sentinel Policies for AWS Foundations Benchmark
 
 These pre-written policies help organizations maintain compliance by validating configurations against industry standards. By running these tests, users can ensure that their pre-written policies are tested for different scenarios. This README also provides details of the folder structure for organizing policies and tests.
 
 ## Folder Structure
 
-The folder structure that is followed for Pre-written Sentinel Policies for CIS and their tests is as follows:
+The folder structure that is followed for Pre-written Sentinel Policies and their tests is as follows:
 
 ```
 /policies/
@@ -24,7 +24,7 @@ The folder structure that is followed for Pre-written Sentinel Policies for CIS 
 │── example-policy.sentinel
 ```
 
-- `policies/` - This directory contains Sentinel policy files for AWS CIS Complaince Standards.
+- `policies/` - This directory contains Sentinel policy files for AWS Complaince Standards.
 - `test/` - This directory contains test case folder for each policy and the name of the test case folder is same as the policy name. and each test case will be associated with the `.hcl` file and mock files.
 - `mocks/` - The mocks folder contains the terraform configuration mocks for the perticular test case scenario, the sentinel policy will be tested out on these mocks.
 
