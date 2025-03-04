@@ -1,3 +1,15 @@
+:rotating_light: Deprecation Notice :rotating_light:
+
+This repository will be deprecated by **03/15/2025** and will no longer be maintained post that.
+
+For the latest and most comprehensive set of policies, please visit:
+
+:small_blue_diamond: [Terraform Registry](https://registry.terraform.io/policies/hashicorp/CIS-Policy-Set-for-AWS-Terraform/1.0.0) to discover and enforce the latest GA policies.
+
+:small_blue_diamond: [Github repo](https://github.com/hashicorp/policy-library-CIS-Policy-Set-for-AWS-Terraform) for accessing the complete set of pre-written policies.
+
+Thank you for your understanding and support!
+
 # (Beta) Pre-written Sentinel Policies for Center for Internet Security(CIS) AWS IAM Foundations Benchmark
 
 Pre-written Sentinel policies are ready to use compliance checks for CIS AWS Foundations Benchmarking v1.2, v1.4 and v3.0 to help enable your AWS resources meet industry security standards.
